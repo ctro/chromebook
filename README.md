@@ -36,6 +36,7 @@ sh ~/Downloads/crouton -r list
 sudo sh ~/Downloads/crouton -t cli-extra -r trusty
 sudo startcli
 ```
+`chrome-setup.sh` is for crouton setup
 
 ## Some Chrome Apps
 
