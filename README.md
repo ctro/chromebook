@@ -23,7 +23,7 @@ https://github.com/skycocker/chromebrew/tree/master/packages
 crew install buildessential htop vim tree ruby_latest libssh2 elixir
 ```
 
-Chromebrew mostly works, but seems v. brittle
+Chromebrew mostly works, but seems v. brittle.  It's also slow as fuck.
 
 ## Crouton
 
@@ -33,7 +33,7 @@ I'm using crouton, but without a graphical shell.  Basically it's like having a 
 
 ```bash
 sh ~/Downloads/crouton -r list
-sudo sh ~/Downloads/crouton -t cli-extra -r trusty
+sudo sh ~/Downloads/crouton -t cli-extra -r xenial 
 sudo startcli
 ```
 `chrome-setup.sh` is for crouton setup
