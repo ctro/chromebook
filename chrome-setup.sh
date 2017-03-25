@@ -12,3 +12,5 @@ git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
 wget -qO- https://get.docker.com/ | sh
 sudo apt-get install python-pip -y
 sudo pip install docker-compose
+sudo usermod -aG docker $USER
+dockerd
